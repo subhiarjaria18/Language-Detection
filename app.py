@@ -1,10 +1,9 @@
 import streamlit as st
 from transformers import pipeline
 
-# Page configuration must be the first Streamlit command
+
 st.set_page_config(page_title="Language Detection App", page_icon="🌐")
 
-# Load the pre-trained model for language identification
 @st.cache_resource
 def load_model():
     return pipeline('text-classification', model='papluca/xlm-roberta-base-language-detection')
