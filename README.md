@@ -19,3 +19,6 @@ Check out the live demo: [Language Detection Web App](https://language-detection
    ```bash
    git clone https://github.com/your-username/language-detection.git
    cd language-detection
+2. Run the app
+   ```bash
+   streamlit run app.py
