@@ -17,7 +17,7 @@ Check out the live demo: [Language Detection Web App](https://language-detection
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/language-detection.git
+   git clone https://github.com/subhiarjaria18/language-detection.git
    cd language-detection
 2. Run the app
    ```bash
